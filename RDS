@@ -1,0 +1,23 @@
+RDS definition
+
+
+RDS is AWS Relational Database Service, a managed service for relational databases.
+
+
+RDS encryption
+Encryption at-rest is available for all database engines
+Backups and snapshots can also be encrypted with KMS.
+
+
+RDS backups
+There are two options:
+Automated backups
+Manual snapshots
+
+
+To restore from the console: Actions -> Restore to point in time. Will have new endpoint.
+
+
+Availability zones and replicas
+Multi-AZ deployment creates a mirror in another zone
+Read-only replicas can increase performance
